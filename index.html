@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت RAMOX</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #000;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        .glass-panel {
+            position: relative;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            text-align: center;
+            width: 300px;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .glass-panel img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .glass-panel h2 {
+            color: #fff;
+            margin: 0;
+        }
+        .footer {
+            color: #fff;
+            margin-top: 20px;
+        }
+        .buy-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .buy-panel {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container" onclick="window.open('https://t.me/Bache_Asil', '_blank')">
+    <div class="glass-panel">
+        <img src="https://digifycdn.com/media/item_images/Telegram_2019_Logo.svg.png?x-img=v1/optimize,q_95/resize,h_500,w_500,force_true" alt="Telegram Logo">
+        <h2>تلگرام</h2>
+    </div>
+</div>
+
+<div class="container" onclick="window.open('https://instagram.com/raamoox', '_blank')">
+    <div class="glass-panel">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo">
+        <h2>اینستاگرام</h2>
+    </div>
+</div>
+
+<div class="buy-button" onclick="window.location.href='ramox.online/Buy'">
+    <div class="buy-panel">
+        <h2>خرید سایت</h2>
+    </div>
+</div>
+
+<div class="footer">Created by RAMOX</div>
+
+</body>
+</html>
